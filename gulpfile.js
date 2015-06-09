@@ -229,7 +229,8 @@ gulp.task('nodemonjin', function () {
         ignore : [
             "tmp/**",
             "public/**",
-            "views/**"
+            "views/**",
+            "node_modules/**"
         ],
         env: { 'NODE_ENV': 'jin' }
     });
